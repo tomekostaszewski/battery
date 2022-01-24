@@ -37,7 +37,7 @@ body {
           flex-direction: column;
 }
 
-.content .changing {
+.content .charging {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -51,18 +51,18 @@ body {
   margin-bottom: 40px;
 }
 
-.content .changing .toggle-icon {
+.content .charging .toggle-icon {
   padding-right: 20px;
   font-size: 2.4rem;
   -webkit-transition: color .7s;
   transition: color .7s;
 }
 
-.content .changing .color-icon {
+.content .charging .color-icon {
   color: seagreen;
 }
 
-.content .changing .toggle-box {
+.content .charging .toggle-box {
   position: relative;
   width: 60px;
   height: 30px;
@@ -71,7 +71,7 @@ body {
   border-radius: 40px;
 }
 
-.content .changing .toggle-box .switch {
+.content .charging .toggle-box .switch {
   position: absolute;
   left: -4px;
   top: 50%;
@@ -87,7 +87,7 @@ body {
   transition: left .5s, background-color .1s;
 }
 
-.content .changing .toggle-box .on-switch {
+.content .charging .toggle-box .on-switch {
   left: 50%;
   background-color: seagreen;
 }
